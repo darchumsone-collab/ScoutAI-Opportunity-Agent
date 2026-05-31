@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "414371342401",
+    "project_id": "darchums-one-76c1b",
+    "storage_bucket": "darchums-one-76c1b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414371342401:android:b66900f10596da78d63ec0",
+        "android_client_info": {
+          "package_name": "com.gemma.mentorai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414371342401-5vud7q64gfmhinkn107ffga0oi5b8lat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gemma.mentorai",
+            "certificate_hash": "ca5becac4d8fc87e7e48abe1ad2dabe209971d79"
+          }
+        },
+        {
+          "client_id": "414371342401-6629q85oci4fts0eupmej3k7nbp07up9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwJbpSp7Huqvi68g19GZ48CBNOZjv2ydg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414371342401-6629q85oci4fts0eupmej3k7nbp07up9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414371342401:android:f50172bd1849d273d63ec0",
+        "android_client_info": {
+          "package_name": "com.gopilot.ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414371342401-tnmm35u2t34jc6m91qkofubv7ojvnouu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gopilot.ai",
+            "certificate_hash": "ca5becac4d8fc87e7e48abe1ad2dabe209971d79"
+          }
+        },
+        {
+          "client_id": "414371342401-6629q85oci4fts0eupmej3k7nbp07up9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwJbpSp7Huqvi68g19GZ48CBNOZjv2ydg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414371342401-6629q85oci4fts0eupmej3k7nbp07up9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414371342401:android:2ef816a3b1c5b7f4d63ec0",
+        "android_client_info": {
+          "package_name": "com.hermes.scoutai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414371342401-6629q85oci4fts0eupmej3k7nbp07up9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwJbpSp7Huqvi68g19GZ48CBNOZjv2ydg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414371342401-6629q85oci4fts0eupmej3k7nbp07up9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
