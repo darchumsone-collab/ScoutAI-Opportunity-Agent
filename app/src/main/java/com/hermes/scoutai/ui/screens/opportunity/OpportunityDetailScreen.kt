@@ -1,6 +1,7 @@
 package com.hermes.scoutai.ui.screens.opportunity
 
 import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -19,6 +20,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -100,7 +102,12 @@ fun OpportunityDetailScreen(
         } else if (uiState.error != null) {
             Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    Text(text = uiState.error!!, color = Danger, textAlign = TextAlign.Center)
+                    Text(
+                        text = uiState.error!!, 
+                        color = Danger, 
+                        textAlign = TextAlign.Center,
+                        modifier = Modifier.padding(horizontal = 32.dp)
+                    )
                     Button(onClick = { viewModel.loadData() }, modifier = Modifier.padding(top = 16.dp)) {
                         Text("Retry")
                     }
@@ -165,7 +172,7 @@ fun MatchAnalysisSection(match: MatchResult) {
     Surface(
         color = Surface,
         shape = RoundedCornerShape(16.dp),
-        border = CardDefaults.outlinedCardBorder()
+        border = BorderStroke(1.dp, Color.White.copy(alpha = 0.1f))
     ) {
         Column(modifier = Modifier.padding(16.dp)) {
             Row(
@@ -293,7 +300,7 @@ fun ActionButtons(
             onClick = onGeneratePlan,
             modifier = Modifier.fillMaxWidth().height(56.dp),
             shape = RoundedCornerShape(12.dp),
-            border = ButtonDefaults.outlinedButtonBorder(enabled = !isGeneratingPlan),
+            border = BorderStroke(1.dp, Primary),
             enabled = !isGeneratingPlan
         ) {
             if (isGeneratingPlan) {
